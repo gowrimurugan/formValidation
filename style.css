@@ -1,0 +1,71 @@
+h3 {
+    margin-left: 23px;
+    margin-bottom: 30px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(186, 143, 188),rgb(249, 29, 172));
+    /* border: solid 1px black; */
+    height: auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-box{
+    /* border: solid 1px black; */
+    margin-top: 150px;
+    margin-left: 550px;
+    margin-right: 450px;
+    margin-bottom: 210px;
+    padding: 30px;
+    /* padding-bottom: 0px; */
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(101, 102, 103);
+}
+
+input {
+    padding: 7px;
+    border: solid 1px antiquewhite;
+    background-color: whitesmoke;
+    color: rgb(101, 102, 103);
+    /* margin-bottom: 20px; */
+}
+
+.left>input {
+    margin-bottom: 20px;
+}
+
+.right>input {
+    margin-bottom: 20px;
+}
+
+select {
+    margin-bottom: 20px;
+}
+select{
+    width: 215%;
+    padding: 10px;
+    border: solid 1px antiquewhite;
+    background-color: whitesmoke;
+    color: rgb(101, 102, 103);
+}
+.submit{
+    margin-left: 20px;
+}
+.submit>input{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(105, 105, 251);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.wrapper>.submit>input{
+    display: block;
+    align-items: flex-end;
+    
+}
